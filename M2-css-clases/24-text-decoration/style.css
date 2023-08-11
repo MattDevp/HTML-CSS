@@ -1,0 +1,12 @@
+.primer-link{
+    text-decoration: none;
+}
+.segundo-link{
+	text-decoration: underline;
+}
+.tercer-link{
+    text-decoration: overline;
+}
+.cuarto-link{
+    text-decoration: line-through;
+}

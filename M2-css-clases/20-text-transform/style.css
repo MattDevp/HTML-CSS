@@ -1,0 +1,15 @@
+.primer-parrafo{
+	text-transform: none;
+}
+
+.segundo-parrafo{
+	text-transform: uppercase;
+}
+
+.tercer-parrafo{
+	text-transform: lowercase;
+}
+
+.cuarto-parrafo{
+	text-transform: capitalize;
+}

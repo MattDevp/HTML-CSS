@@ -1,0 +1,20 @@
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+.primer-parrafo{
+	font-weight: normal;
+}
+
+.segundo-parrafo{
+	font-weight: bold;
+}
+
+.tercer-parrafo{
+	font-weight: 200;
+}
+
+.cuarto-parrafo{
+	font-weight: 800;
+}

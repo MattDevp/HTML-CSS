@@ -1,0 +1,11 @@
+/* esta es una regla CSS */
+.parrafo-uno{
+color: red;
+}
+
+/* esta es una regla CSS con 3 declaraciones  */
+.parrafo-dos{
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
