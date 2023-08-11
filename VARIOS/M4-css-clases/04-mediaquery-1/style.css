@@ -1,0 +1,18 @@
+p{
+  background: red;
+  color: #FFFFFF;
+}
+
+/* Este estilo se aplicará a partir de los 400px y más */
+@media (min-width: 400px){
+	p{
+	  background: blue;
+	}
+}
+
+/* Este estilo se aplicará a partir de los 800px y más */
+@media (min-width: 800px){
+	p{
+	  background: green;
+	}
+}

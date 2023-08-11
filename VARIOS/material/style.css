@@ -1,0 +1,44 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.menu-principal{
+	background: #5b57f2;
+}
+
+/* estilo para la lista no ordenada */
+.nav-list{
+	margin: 0;
+	padding: 0;
+}
+
+/* estilo para que un item esté al lado del otro */
+.nav-item{
+	display: inline-block;
+}
+
+/* estilo para los enlaces */
+.nav-link{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+}
+
+.nav-link:hover{
+	background: #3e3bc0;
+}
+
+@media (max-width: 992px){
+	.nav-item{
+		display: block;
+		border-bottom: #7c79f5;
+	}
+}
+
+@media (max-width: 992px){
+	.menu-principal{
+		border: #7c79f5;
+	}
+}

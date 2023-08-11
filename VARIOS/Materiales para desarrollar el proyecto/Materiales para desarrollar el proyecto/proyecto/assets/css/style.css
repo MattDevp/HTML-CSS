@@ -1,0 +1,121 @@
+/*     
+CSS rules to specify families
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;*/
+
+/* --------- GENERALES --------- */
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+
+
+/* --------- CLASES GLOBALES --------- */
+
+.sin-vineta{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.btn{
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #47a359;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700; /* bold */
+    text-align: center;
+    padding: 15px 30px;
+   
+}
+
+.logo-header,
+.logo-footer{
+    display: inline-block;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* --------- HEADER --------- */
+
+header{
+    padding: 30px 0;
+
+}
+
+.menu-principal{
+
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .menu-principal{
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+}
+
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .menu-principal ul li{
+        display: inline-block;
+        border-bottom: 0;
+    }
+}
+
+.menu-principal ul li a{
+    color: #2C2C2C;
+    font-weight: 700; /* bold */
+    display: block;
+    padding: 10px;
+}
+
+.menu-principal ul li a:hover{
+    color: #EF3A2B;
+}
+
+
+
+
+
+
+
+/* -- footer --*/
+footer{
+    background-color: #252525;
+    padding: 30px 0;
+    text-align: center;
+    text-align: left;
+    bottom: 0;
+}
+
+
+footer .redes-sociales{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+footer .redes-sociales li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icono-scroll{
+    position: absolute;
+    background: #378046;
+    right: 0;
+}

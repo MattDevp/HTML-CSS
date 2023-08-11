@@ -1,0 +1,39 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.menu-principal{
+	background: #5b57f2;
+}
+
+/* estilo para la lista no ordenada */
+.nav-list{
+	margin: 0;
+	padding: 0;
+}
+
+/* estilo para que un item esté al lado del otro */
+.nav-item{
+	border-bottom: 1px solid #7c79f5;
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width:992px){
+	.nav-item{
+		display: inline-block;
+		border-bottom: 0;
+	}
+}
+
+/* estilo para los enlaces */
+.nav-link{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+}
+
+.nav-link:hover{
+	background: #3e3bc0;
+}

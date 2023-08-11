@@ -1,0 +1,21 @@
+p{
+  text-align: center;
+  display: block;
+  background: #EEEEEE;
+}
+
+@media (min-width: 600px){
+	/* Este estilo se aplicará a partir de los 600px y más */
+	p{
+	  text-align: right;
+	  height: 600px;
+	}
+}
+
+@media (min-width: 1000px){
+	/* Este estilo se aplicará a partir de los 1000px y más */
+	p{
+	  text-align: left;
+	  background: #EEC4D0;
+	}
+}

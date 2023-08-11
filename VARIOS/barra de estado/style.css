@@ -1,0 +1,38 @@
+.progress {
+    position: relative;
+    margin: 20;
+    left: 50px;
+    top: 10px;
+    height: 35px;
+    width: 85%;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+    
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #428bca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+    width: 70%;
+    text-align: center;
+}

@@ -1,0 +1,358 @@
+/* --------- GENERALES --------- */
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: #2C2C2C;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 700; /* bold */
+    margin: 0;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* --------- CLASES GLOBALES --------- */
+
+.sin-vineta{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.btn{
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #EF3A2B;
+    text-transform: uppercase;
+    font-weight: 700; /* bold */
+    text-align: center;
+    display: block;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .btn{
+        display: inline-block;
+    }
+}
+
+.btn:hover{
+    background-color: #B72C21;
+}
+
+.category{
+    color: #2C2C2C;
+    background-color: #FFF0AB;
+    font-size: 14px;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+.category:hover{
+    background-color: #ECDB8D;
+}
+
+.logo-header,
+.logo-footer{
+    display: inline-block;
+}
+
+.box{
+    border: 1px solid #CCCCCC;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* --------- CONTAINER, FILAS Y COLUMNAS --------- */
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+/* Para dispositivos extragrandes (laptops y computadores de escritorio más grandes). Se aplicará a partir de los 1200px y más */
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+.fila{
+    margin: 0 -15px;
+}
+
+.columna{
+    padding: 0 15px;
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+    .columna{
+        float: left;
+    }
+}
+
+.columna-izquierda{
+
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+    .columna-izquierda{
+        width: 66.66%;
+    }
+}
+
+.columna-derecha{
+
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+    .columna-derecha{
+        width: 33.33%;
+    }
+}
+
+/* --------- HEADER --------- */
+
+header{
+    padding: 30px 0;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.menu-principal{
+
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .menu-principal{
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+}
+
+.menu-principal ul li{
+    border-bottom: 1px solid #CCCCCC;
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    .menu-principal ul li{
+        display: inline-block;
+        border-bottom: 0;
+    }
+}
+
+.menu-principal ul li a{
+    color: #2C2C2C;
+    text-transform: uppercase;
+    font-weight: 700; /* bold */
+    display: block;
+    padding: 10px;
+}
+
+.menu-principal ul li a:hover{
+    color: #EF3A2B;
+}
+
+/* --------- IMAGEN PRINCIPAL --------- */
+
+.texto-bienvenida{
+    height: 300px;
+    background-image: url(../img/imagen-bienvenida.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bienvenida{
+    position: relative;
+    top: 45px;
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+    .bienvenida{
+        width: 33.33%;
+        position: absolute;
+    }
+}
+
+.bienvenida h1{
+    margin-bottom: 10px;
+}
+
+.bienvenida p{
+    margin-bottom: 0;
+}
+
+/* --------- MAIN --------- */
+
+main{
+    padding: 50px 0;
+}
+
+main img{
+    max-width: 100%;
+    height: 100%;
+}
+
+/* --------- ARTÍCULOS --------- */
+
+.post-item{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.post-item .post-image{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.post-item .post-image .category{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.post-item h2,
+.post-item p{
+    margin-bottom: 15px;
+}
+
+/* información */
+.information{
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.information li{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle; /* Estilo para alinear los elementos de forma vertical */
+}
+
+.information img{
+    border-radius: 30px;
+}
+
+.information span{
+    color: #EF3A2B;
+}
+
+/* --------- ASIDE --------- */
+
+.suscription{
+    margin-bottom: 30px;
+}
+
+.suscription h2{
+    margin-bottom: 15px;
+}
+
+.suscription .btn{
+    display: block;
+}
+
+.categories h2{
+    margin-bottom: 15px;
+}
+
+.categories .category-group li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/* --------- FOOTER --------- */
+
+footer{
+    background-color: #EF3A2B;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    footer{
+        text-align: left;
+    }
+}
+
+footer .redes-sociales{
+
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+    footer .redes-sociales{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+}
+
+footer .redes-sociales li{
+    display: inline-block;
+    margin: 0 10px;
+}

@@ -1,0 +1,24 @@
+/* Estilo para dispositivos bajo 576px y más. No se designa ninguna regla @media. Estos estilos, en su mayoría, predominarán en todo el diseño del sitio */
+p{
+  background: red;
+}
+
+/* Para dispositivos pequeños (tablets verticales, móviles horizontales). Se aplicará a partir de los 576px y más */
+@media (min-width: 576px){
+	
+}
+
+/* Para dispositivos medianos (tablets horizontales). Se aplicará a partir de los 768px y más */
+@media (min-width: 768px){
+	
+}
+
+/* Para dispositivos grandes (laptops y computadores de escritorio). Se aplicará a partir de los 992px y más */
+@media (min-width: 992px){
+	
+}
+
+/* Para dispositivos extragrandes (laptops y computadores de escritorio más grandes). Se aplicará a partir de los 1200px y más */
+@media (min-width: 1200px){
+	
+}

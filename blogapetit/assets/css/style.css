@@ -1,0 +1,98 @@
+/* --------- GENERALES --------- */
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: #2C2C2C;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 700; /* bold */
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* --------- CLASES GLOBALES --------- */
+
+.sin-vineta{
+    list-style: none;
+}
+
+.btn{
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #EF3A2B;
+    text-transform: uppercase;
+    font-weight: 700; /* bold */
+}
+
+.btn:hover{
+    background-color: #B72C21;
+}
+
+.category{
+    color: #2C2C2C;
+    background-color: #FFF0AB;
+    font-size: 14px;
+}
+
+.category:hover{
+    background-color: #ECDB8D;
+}
+
+/* --------- HEADER --------- */
+
+.menu-principal ul li a{
+    color: #2C2C2C;
+    text-transform: uppercase;
+    font-weight: 700; /* bold */
+}
+
+.menu-principal ul li a:hover{
+    color: #EF3A2B;
+}
+
+/* --------- IMAGEN PRINCIPAL --------- */
+
+/* --------- MAIN --------- */
+
+/* --------- ARTÍCULOS --------- */
+
+/* información */
+.information{
+    color: #777777;
+    font-size: 14px;
+}
+
+.information span{
+    color: #EF3A2B;
+}
+
+/* --------- ASIDE --------- */
+
+/* --------- FOOTER --------- */
+
+footer{
+    background-color: #EF3A2B;
+}
