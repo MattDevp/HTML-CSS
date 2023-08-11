@@ -1,0 +1,39 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{
+  color: #FFFFFF;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fila{
+	border: 5px solid #000000;
+	padding: 10px;
+	background: #CAE2FE;
+}
+
+.columnas{
+	float: left;
+	padding: 20px;
+}
+
+.columna-izquierda{
+	background: #F24F4F;
+	width: 66.66%;
+}
+
+.columna-derecha{
+	background: #00B0F0;
+	width: 33.33%;
+}

@@ -1,0 +1,13 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+.enlinea li{
+	display: inline;
+	margin: 10px; /* 10px para todos sus lados, pero como es un elemento en línea, solo se establece un margin right y left */
+}

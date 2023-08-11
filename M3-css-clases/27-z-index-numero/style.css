@@ -1,0 +1,54 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{
+  color: #FFFFFF;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.grupo-cuadrados{
+	background: #eeeeee;
+	padding: 25px;
+}
+
+.cuadrados{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	position: absolute;
+}
+
+.cuadrado-1{
+	background: #0370EF;
+	z-index: 3;
+}
+
+.cuadrado-2{
+	background: #F24F4F;
+	top: 40px;
+	left: 40px;
+	z-index: 2;
+	
+}
+
+.cuadrado-3{
+	background: #173F8A;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+}

@@ -1,0 +1,31 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{
+    padding: 40px 50px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.caja{
+	border: 1px solid #CCCCCC;
+	padding: 25px;
+	width: 500px;
+	position: relative;
+}
+
+.caja img{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}

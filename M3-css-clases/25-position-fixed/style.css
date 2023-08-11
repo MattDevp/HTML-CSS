@@ -1,0 +1,22 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fixed{
+	background: #FEC60D;
+	padding: 20px;
+    position: fixed;
+	bottom: 30px;
+	right: 30px;
+}

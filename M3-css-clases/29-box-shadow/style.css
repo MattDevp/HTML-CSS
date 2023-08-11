@@ -1,0 +1,15 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+.caja{
+	width: 200px;
+	height: 100px;
+	display: block;
+	box-shadow: 2px 2px 3px red;
+}

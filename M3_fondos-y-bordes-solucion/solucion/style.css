@@ -1,0 +1,42 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	padding: 20px;
+	background: #263247;
+	color: #fff;
+}
+
+/* header */
+header{
+	padding: 50px 20px;
+	border-radius: 10px;
+	border: 5px solid #000000;
+	margin-bottom: 20px;
+	background: url(fondo-plantas.jpg) no-repeat center center / cover transparent;
+	/* Propiedades por separado
+	background-image: url(fondo-plantas.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: transparent;*/
+	
+}
+
+header h1{
+	padding: 10px;
+	/* transparencia a H1 con rgba*/
+	background-color: rgba(0,0,0,0.5);
+}
+
+/* section */
+section{
+	padding: 50px 20px 50px 100px;
+	border-radius: 10px;
+	border: 5px dotted #6aaf08;
+	background-image: url(icono-planta.png);
+	background-repeat: repeat-y;
+	background-position: 15px top;
+	background-color: transparent;
+	/* Propiedad shorthand
+	background: url(icono-planta.png) repeat-y 15px top transparent;*/
+}
